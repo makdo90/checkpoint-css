@@ -9,21 +9,21 @@
     <link rel="icon" href="/portfolioimg.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src='main.js'></script>
 </head>
-<body style="font-family: 'Montserrat', sans-serif;">
+<body>
     <!-- header -->
  <header>
-    <nav>
-    <div class="logo"> <a href="#home"><h1>My portfolio</h1></a></div>
+    <nav class="navigation">
+    <div > <a class="logo" class href="#home"><h1>PORTFOLIO</h1></a></div>
     <div class="menu">
-        <ul type="none">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul>
+            <li ><a class="homecontainer" href="#home">Home</a></li>
+            <li ><a class="aboutcontainer" href="#about">About</a></li>
+            <li ><a class="workcontainer" href="#work">Work</a></li>
+            <li ><a class="resumecontainer" href="#resume">Resume</a></li>
+            <li ><a class="contactcontainer" href="#contact">Contact</a></li>
         </ul>
     </div>
     </nav>
@@ -31,62 +31,68 @@
  <!-- main -->
  <main>
     <!-- section informations personel  -->
-    <section id="about"  style="background-color:rgba(0, 225, 255, 0.726) ;">
-     
-        <h2>Info about me</h2>
-     <div class="infos">
-        <p>
+    <section id="about">
+<div class="infos" >
+        <h2>INFOS</h2>
+     <div >
+        <p class="first p">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque animi consequatur, nisi maiores dolore cumque! Porro eius earum facere repellendus, laboriosam inventore necessitatibus in alias, cumque maiores commodi, qui rerum.
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis omnis, tenetur earum odio ipsam ullam blanditiis hic iure in aut nam doloribus labore cupiditate optio voluptate unde, perferendis, rerum molestias.
         </p>  
      </div>
-     <aside class="my image">
-        <img  src="https://envri.eu/wp-content/uploads/2016/08/software-developer-copy.jpg" width="200" height="250" alt="my photo" title="My image" style="border-radius:20px 20px 20px 20px ;">
-     </aside>
+</div>
+     
+        <img  src="https://envri.eu/wp-content/uploads/2016/08/software-developer-copy.jpg"  alt="my photo" title="My image" >
+     
     </section>
     <!-- section skills -->
-    <section id ="work" style="background-color:rgb(163, 235, 145) ;">
-     <div>
-        <h2>My skills</h2>
-        <p>
+    <section id ="work" >
+     <div class="myskills">
+        <h2>SKILLS</h2>
+        <p class="second p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora id, recusandae, placeat sunt debitis aliquam <b>HTML</b> commodi numquam fuga quasi <strong>CSS</strong> harum neque nisi! Ipsam cupiditate <mark>JS</mark>nihil architecto ut quidem fuga quam?
         </p>
-        <video src="/websitetemplate.mp4"  width="500px" height="500px" controls autoplay poster="projectsimg.jpg" preload="none"></video>
-    </div>
+     </div>
+        <video src="/websitetemplate.mp4"  controls autoplay poster="projectsimg.jpg" preload="none"></video>
+    
     </section>
     <!-- section conclusion-->
-    <section id="resume" style="background-color: rgba(240, 241, 139, 0.959);">
-        <h2>Resume</h2>
+    <section id="resume">
+    <div class="resumearea">
+        <h2>RESUME</h2>
         <p>
-            thank you for your time Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum exercitationem accusantium id, maiores quibusdam excepturi dolores deleniti. Laboriosam rem porro similique assumenda unde deleniti est explicabo excepturi sunt in.
-        </p> <br>
+            Thank you for your time Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum exercitationem accusantium id, maiores quibusdam excepturi dolores deleniti. Laboriosam rem porro similique assumenda unde deleniti est explicabo excepturi sunt in.
+        </p> 
+    </div>
         <audio src="chill.mp3"controls autoplay muted>
         </audio>
     </section>
  </main>
  <!-- footer -->
  <footer>
-    <section id="contact" style="background-color: rgb(228, 235, 236);">
-        <table class="tab">
-            <caption> <h3> Contact me </h3> </caption>
+    <section id="contact">
+        <div class="tab">
+        <table >
+            <caption> <h3>CONTACT</h3> </caption>
             <tr>
                 <td>
-                    <p> Email </p>
+                    <p> <b> Email  </b></p>
                 </td>
-                <td> <a href="https://www.google.com/intl/fr/gmail/about/" target="_blank"> med.amine.makdo@gmail.com </a> </td>
+                <td > <a href="https://www.google.com/intl/fr/gmail/about/" target="_blank">  med.amine.makdo@gmail.com </a> </td>
             </tr>
             <tr>
 <td>
-   <p> Number </p>
+   <p> <b> Number </b> </p>
 </td>
 <td>
-    <p> +216 12345678 </p>
+    <p>  +216 12345678  </p>
 </td>
             </tr>
         </table>
-        <div class="footer general">
-<p> all rights are reserved 2022 &COPY;</p>
-<p>check point HTML</p>
+    </div>
+        <div class="footerarea">
+<p class="footerpara"> all rights are reserved 2022 &COPY;</p>
+<p class="footerpara">workshop CSS</p>
 </div>
     </section>
  </footer>

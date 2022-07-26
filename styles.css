@@ -1,0 +1,161 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body {
+    margin: auto;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    max-height: max-content;
+}
+.logo {
+    padding-left: 0%;
+}
+ul {
+    display: flex;
+margin-left: 1000px;
+}
+li {
+    list-style: none;
+    margin: 15px;
+    font-weight: bold;
+}
+a:hover
+{
+    color: tomato;
+}
+.homecontainer , .aboutcontainer , .workcontainer , .resumecontainer , .contactcontainer  {
+    text-decoration: none;
+    font-size: larger;
+}
+.logo {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 10px;
+}
+
+.homecontainer {
+color: rgb(0, 0, 0);
+}
+.aboutcontainer {
+    color:rgba(0, 225, 255, 0.726) ;
+}
+.workcontainer {
+    color:rgb(113, 204, 91)  ;
+}
+.resumecontainer {
+color: rgba(236, 127, 37, 0.959);
+}
+.contactcontainer {
+    color:rgba(94, 94, 94, 0.671) ;
+}
+#about {
+    background-color: rgba(0, 225, 255, 0.726) ;
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    height: 20%;
+    align-content: center;
+   
+}
+.infos {
+    padding: 50px; ;
+    width: 20%;
+    align-content: center;
+    margin-left: 20%;
+}
+.infos h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #000000;
+}
+.infos p {
+    text-align: center;
+}
+img {
+    width: 250px;
+    height:300px;
+    border-radius:20px;
+    align-content: center;
+    margin-top: 25px;
+    margin-left: 15%;
+       
+}
+#work {
+    background-color: rgb(113, 204, 91) ;
+    display: flex;
+    
+}
+.myskills{
+    width: 20%;
+    align-content: center;
+    margin: 40px 0px 40px 22%;
+    padding: 20px;
+    
+}
+.myskills h2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #000000;
+}
+.myskills p{
+    text-align: center;
+}
+video {
+    margin: 40px 0px 40px 310px;
+    width: 350px;
+    height: 350px;
+    
+}
+#resume {
+    background-color: rgba(236, 127, 37, 0.959);
+    display: flex;
+    align-content: center;
+}
+.resumearea {
+    width: 20%;
+    margin: 40px 0px 40px 23%;
+    align-content: center;
+}
+.resumearea h2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #000000;
+}
+.resumearea p{
+    text-align: center;
+}
+audio {
+    margin: 100px 0px 80px 330px;
+
+}
+#contact {
+    background-color: rgba(94, 94, 94, 0.671);
+    display: flex;
+    justify-content: space-around;
+}
+caption {
+    letter-spacing: 5px;
+    color: #000000;
+    font-weight: 900;
+}
+.tab {
+    margin: 40px 0px 40px 23%;
+}
+.footerarea {
+    margin: 150px 0px 5px 800px;
+}
+.footerpara
+{
+    color: rgba(233, 233, 233, 0.952);
+    font-variant: small-caps;
+}
